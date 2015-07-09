@@ -1,0 +1,12 @@
+from TurtleWorld import *
+import math
+world=TurtleWorld()
+bob=Turtle()
+print (bob)
+def polyline(t,n,length,angle):
+    
+     for i in range(n):
+          fd(t,length)
+          lt(t,angle)
+polyline(bob,10,100,30)
+wait_for_user()
